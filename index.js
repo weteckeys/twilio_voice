@@ -84,7 +84,7 @@ app.use((error, req, res, next) => {
 })
 
 let server = http.createServer(app);
-let port = process.env.PORT || 3001;
+let port = process.env.PORT || 3000;
 server.listen(port, () => {
     console.log(`Express Server listening on *:${port}`);
 });
